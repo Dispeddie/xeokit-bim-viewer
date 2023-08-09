@@ -16,13 +16,13 @@
         "typeInference": {"enable": true},
 
         "brand": {
-          "logo": "./images/logo.jpg",
+          "logo": "./src/images/logo.jpg",
           "title": "xeokit-bim-viewer",
           "description": "BIM viewer built on xeokit",
           "repository": "https://github.com/xeokit/xeokit-bim-viewer",
           "site": "https://github.com/xeokit/xeokit-bim-viewer",
           "author": "http://xeolabs.com",
-          "image": "./images/logo.jpg"
+          "image": "./src/images/logo.jpg"
         }
       }
     }

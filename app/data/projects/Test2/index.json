@@ -1,0 +1,33 @@
+{
+    "id": "Test2",
+    "name": "Test2",
+    "models": [
+        {
+            "id": "design",
+            "name": "Test 2 Design",
+            "saoEnabled": true,
+            "pbrEnabled": true,
+            "edges": true
+        }
+    ],
+    "viewerConfigs": {
+        "backgroundColor": [
+            0.95,
+            0.95,
+            1.0
+        ]
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ]
+    },
+    "viewerState": {
+        "viewCubeEnabled": true,
+        "threeDEnabled": true,
+        "tabOpen": "classes",
+        "expandObjectsTree": 3,
+        "expandClassesTree": 1,
+        "expandStoreysTree": 2
+    }
+}

@@ -3,7 +3,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/xeolabs?style=social)](https://twitter.com/xeolabs) [![npm version](https://badge.fury.io/js/%40xeokit%2Fxeokit-bim-viewer.svg)](https://badge.fury.io/js/%40xeokit%2Fxeokit-bim-viewer)
 [![](https://data.jsdelivr.com/v1/package/npm/@xeokit/xeokit-bim-viewer/badge)](https://www.jsdelivr.com/package/npm/@xeokit/xeokit-bim-viewer)
 
-[![Screenshot](https://github.com/xeokit/xeokit-bim-viewer/raw/master/images/xeokit-bim-viewer.png)](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
+[![Screenshot](https://github.com/xeokit/xeokit-bim-viewer/raw/master/src/images/xeokit-bim-viewer.png)](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
 
 * [Run demo](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
 
@@ -948,7 +948,7 @@ inline, rather than fetch them from a separate JSON file, as we would in practic
 We call translations "messages". Our metaphor is that the UI "conveys messages to the user". 
 
 To see all the translations expected by a BIMViewer, take a look at the translations we've configured for the bundled BIMViewer 
-demo application:  [````/app/locales/messages.js````](/app/locales/messages.js).  
+demo application:  [````/src/locales/messages.js````](/src/locales/messages.js).  
 
 ````javascript
 myBIMViewer.localeService.loadMessages({
